@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container-center{
+      width: 90%;
+      margin: 0 auto;
+      /* debug */
+      background-color: rgb(20, 7, 4);
+      height: 100px;
+  }
+  
+
+  /* header */
+  header {
+      background-color: #698ef0;
+      /* debug */
+      height: 500px;
+  }
+  
+  .jumbo{
+    width: 60%;
+    margin: 0 auto;
+    /* debug */
+    background-color: blue;
+    height: 200px;
+  }
+
+
+  /* sezione principale */
+main {
+    margin: 50px 0;
+}
+
+section {
+    /* debug */
+    height: 200px;
+
+}
+
+
+/* footer */
+footer{
+    background-color: #23272a;
+    /* debug */
+    height: 500px;
+}
+
