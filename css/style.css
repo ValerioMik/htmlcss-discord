@@ -140,3 +140,8 @@ footer{
     height: 70vh;
 }
 
+
+.fa, .fas {
+    font-weight: 900;
+    margin-right: 9px;
+}
