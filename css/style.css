@@ -4,18 +4,71 @@
     box-sizing: border-box;
   }
 
-  .container-center{
-      width: 90%;
+  .container{
+      width: 100%;
       margin: 0 auto;
       /* debug */
-      background-color: rgb(20, 7, 4);
+      background-color: rgb(37 94 233);
       height: 100px;
   }
+
+  .container-center{
+    width: 70%;
+    margin:0 auto;
+    padding: 10px;
+    position: relative;
+    /* debug */
+   
+  }
+
+  #logo{
+      height: 30px;
+      vertical-align: middle;
+  }
+  
+  .cont-button{
+    border-radius: 50px;
+    background-color: white;
+    padding: 4px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    right: 11px;
+  }
+  .button{
+      color: black;
+  }
+
+    nav {
+    display: inline-block;
+    position: absolute;
+    right: 330px;
+ }
+
+ a{
+     color: white;
+     font-size: 18px;
+     text-decoration: none;
+ }
+  
+
+  ul{
+      list-style-type: none;
+  }
+  li{
+      display: inline-block;
+      
+    
+  }
+
   
 
   /* header */
   header {
-      background-color: #698ef0;
+      background-image: url(../img/jumbo.png);
+      background-size: 1535px;
       /* debug */
       height: 500px;
   }
